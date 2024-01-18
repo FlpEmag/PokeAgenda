@@ -33,7 +33,6 @@
               "src/styles.scss"
             ],
             "scripts": [],
-            "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
               "entry": "server.ts"
@@ -102,5 +101,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "34d623e3-dbfa-4766-923b-5f1493588f21"
   }
 }
