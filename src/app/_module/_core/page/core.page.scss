@@ -1,0 +1,28 @@
+.conteiner-page
+{
+    .conteiner-image 
+    {
+        margin-top: 42px;
+        display: flex;
+        justify-content: center;
+        .image-logo
+        {    
+            width: 528px;
+        } 
+    }      
+
+    .conteiner-input
+    {
+        display flex;
+        justify-content: center;
+        margin-top: 34px;
+
+        .input-search
+        {
+            width: 776px;
+            height: 50px;
+            background-color: ;
+        }
+    }
+
+}
