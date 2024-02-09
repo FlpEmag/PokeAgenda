@@ -5,6 +5,7 @@
         margin-top: 42px;
         display: flex;
         justify-content:center;
+
         .image-logo
         {    
             width: 528px;
@@ -27,8 +28,14 @@
             padding-left: 21px;
             padding-right: 21px;
             color: #ffffff;
-            font-size: 16px;
-        }
+            font-size: 16px; 
+        }   
     }
-
+    .cards
+    {
+        background-color: #21252B;
+        height: 338px;
+        width: 257px;
+        border: 1px solid #464A5A;
+    }
 }
