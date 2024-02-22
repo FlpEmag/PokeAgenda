@@ -1,6 +1,6 @@
-.conteiner-page
+.container-page
 {
-    .conteiner-image 
+    .container-image 
     {
         margin-top: 42px;
         display: flex;
@@ -12,7 +12,7 @@
         } 
     }      
 
-    .conteiner-input
+    .container-input
     {
         display: flex;
         justify-content: center;
@@ -31,11 +31,19 @@
             font-size: 16px; 
         }   
     }
-    .cards
-    {
-        background-color: #21252B;
-        height: 338px;
-        width: 257px;
-        border: 1px solid #464A5A;
+    
+    .container-all-cards
+     {
+        display: flex;
+        justify-content: center;
+
+        .container-cards-pokemon
+        {
+            margin-top: 26px;
+            width: 1100px;
+            display: grid;
+            grid-gap: 24px;
+            grid-template-columns: repeat(4, 1fr);
+        }
     }
-}
+ }
