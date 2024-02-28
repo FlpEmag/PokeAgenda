@@ -45,5 +45,12 @@
             grid-gap: 24px;
             grid-template-columns: repeat(4, 1fr);
         }
-    }
+
+        .container-tipo 
+        {
+            width: 111px;
+            height: 32px;
+            border-radius: 8px;
+        }
+    }   
  }
